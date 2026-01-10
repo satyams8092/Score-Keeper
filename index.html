@@ -4,11 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Score Keeper</title>
+    <style>
+        .winner{
+            color: green;
+        }
+        .losser{
+            color: red;
+        }
+    </style>
 </head>
 <body>
     <h1><span id="p1Display">0</span> vs <span id="p2Display">0</span></h1>
-    <button id="p1Button">+1 Playey One</button>
-    <button id="p2Button">+2 Playey One</button>
+    
+    <select name="" id="playTo">
+        <option value="3">3</option>
+        <option value="5">5</option>
+        <option value="7">7</option>
+        <option value="9">9</option>
+        <option value="11">11</option>
+    </select>
+
+    <button id="p1Button">+1 Player One</button>
+    <button id="p2Button">+1 Player Two</button>
     <button id="reset">Reset</button>
 
 
